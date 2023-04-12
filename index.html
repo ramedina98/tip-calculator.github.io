@@ -1,0 +1,82 @@
+<!--Tip calculator app-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tip calculator app || HUB</title>
+      <link rel="icon" href="imagenes/favicon-32x32.png">
+
+      <!--Style documents-->
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="responsive.css">
+
+      <!--Google fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+
+      <!--Java Script documents-->
+      <script defer src="logic.js"></script>
+</head>
+<body>
+      <main>
+
+            <!--1 logo-->
+            <section class="logo-content">
+                  <img src="imagenes/logo.svg" alt="Logo de la empresa">
+            </section>
+
+            <!--2 app content-->
+            <section class="app-content">
+
+
+                  <!--3-->
+                  <div class="gates">
+                        <label>Bill</label>
+                        <input type="tel" name="bill" placeholder="0" class="bill">
+
+                        <label>Select Tip %</label>
+                        <div class="porcentaje">
+                              <button class="uno botones">5%</button>
+                              <button class="dos botones">10%</button>
+                              <button class="tres botones">15%</button>
+                              <button class="botones">25%</button>
+                              <button class="botones">50%</button>
+                              <input type="tel" name="custom" placeholder="Custom" class="custom">
+                        </div>
+
+                        <label>Number of People</label> <span class="warning-uno" id="warning-uno">Can't be zero</span>
+                        <input type="tel" name="people" placeholder="0" class="number warning" id="personas">
+                  </div>
+
+                  <!--4-->
+                  <div class="display-content">
+                        <div class="top">
+                              <div>
+                                    <h4>Tip Amount</h4>
+                                    <p>/ person</p>
+                              </div>
+                              <output id="ver">$0.00</output>
+
+                              <div>
+                                    <h4>Total with tip</h4>
+                                    <p>/ person</p>
+                              </div>
+                              <output id="show">$0.00</output>
+                              <div class="last">
+                                    <h4>Tip %</h4>
+                              </div>
+                              <output class="cuanto">0%</output>
+                        </div>
+
+                        <button class="reset">reset</button>
+                  </div>
+            </section>
+      </main>
+
+      <!--This footer sections is just an extra, here are my social and contact networks-->
+      <footer></footer>
+</body>
+</html>

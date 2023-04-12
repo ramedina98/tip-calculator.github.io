@@ -1,0 +1,169 @@
+/*This is the responsive document css of the proyect 'splitter'*/
+@media screen and (max-width: 948px){
+
+      main{
+
+            width: 100%;
+            height: 80rem;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+      }
+      .logo-content{
+
+            margin: 0.5rem 0 .5rem 0;
+      }
+
+      .app-content{
+      
+            width: 38.2rem;
+            height: 50rem;
+            margin: 2rem 1rem 2rem 1rem;
+            flex-direction: column;
+            flex-wrap: nowrap;
+      }
+      .app-content .gates{
+            width: 100%;
+            margin-bottom: .6rem;
+      }
+      .app-content .display-content{
+
+            width: 100%;
+            border: 1px solid black;
+      }
+      .display-content .top div h4{
+
+            font-size: 1rem;
+      }
+      .display-content .top div p{
+      
+            font-size: .7rem;
+      }
+      .display-content .top output{
+
+            font-size: 2.5rem;
+      }
+}
+@media screen and (max-width: 621px){
+
+      .app-content{
+      
+            width: 26.2rem;
+            height:50rem;
+            margin: 2rem 1rem 2rem 1rem;
+            flex-direction: column;
+            flex-wrap: nowrap;
+      }
+}
+@media screen and (max-width: 375px){
+
+      .app-content{
+      
+            width: 23rem;
+            height: 50rem;
+            flex-direction: column;
+            flex-wrap: nowrap;
+      }
+      .app-content .gates{
+            width: 100%;
+            height: 70%;
+            margin: 1rem;
+      }
+      .app-content .display-content{
+
+            width: 100%;
+            height: 50%;
+            border: 1px solid black;
+      }
+      .display-content .top{
+
+            width: 80%;
+      }
+      .display-content .top div{
+
+            width: 35%;
+            padding: 0;
+            margin-right: 4rem;
+      }
+      .display-content .top div h4{
+
+            font-size: .8rem;
+      }
+      .display-content .top div p{
+      
+            font-size: .6rem;
+      }
+      .display-content .top output{
+
+            width: 35%;
+            font-size: 2rem;
+      }
+      .porcentaje input::placeholder{
+
+            font-size: .86rem;
+      }
+      .display-content button{
+
+            margin-top: 1rem;
+      }
+}
+@media screen and (max-width: 320px){
+
+      .app-content{
+      
+            width: 20rem;
+            height: 50rem;
+            flex-direction: column;
+            flex-wrap: nowrap;
+      }
+      .app-content .gates{
+            width: 100%;
+            height: 70%;
+            margin: 1rem;
+      }
+      .app-content .display-content{
+
+            height: 40%;
+      }
+      .display-content .top{
+
+            width: 80%;
+      }
+      
+      .display-content .top div{
+
+            width: 35%;
+            padding: 0;
+            margin-right: 3rem;
+      }
+      
+      .display-content .top div h4{
+
+            font-size: .7rem;
+      }
+      .display-content .top div p{
+      
+            font-size: .5rem;
+      }
+      .display-content .top output{
+
+            width: 35%;
+            font-size: 1.5rem;
+      }
+      .display-content button{
+            
+            margin-top: 0rem;
+      }
+      .porcentaje input{
+            
+            padding: 1rem;
+            font-size: .64rem;
+      }
+      .porcentaje input::placeholder{
+
+            font-size: .64rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+}
